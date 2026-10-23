@@ -16,7 +16,7 @@ app.use((req, res, next) => {
 // Home route
 app.get('/', (req, res) => {
   res.json({
-    message: 'Node app is running on AWS!',
+    message: 'Node app is running on AWS! v2',
     environment: NODE_ENV,
     version: '1.0.0'
   });
